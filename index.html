@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayank Mathur - Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./images/Favicon.png"/>
+</head>
+<body>
+    <!-- Navbar on Top-->
+    <nav class="navbar" alink="red" vlink="green">
+        
+        <!-- Top Left : Name-->
+        <div class="namelink">
+            <a href="#home"> Er. MAYANK MATHUR</a>
+        </div>
+
+        <!-- Top Center : Toggle -->
+        <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider round"></span>
+        </label>
+
+        <!-- Top Right : Navbar-->
+        <div class="pagelink">
+            <a href="#home">
+                <i class="fa-solid fa-house"></i>
+                <span> Home </span> 
+            </a>
+            <a href="#about">
+                <i class="fa-sharp fa-solid fa-circle-info"></i>
+                <span> About </span> 
+            </a>
+            <a href="#skills"> 
+                <i class="fa-solid fa-gear"></i>
+                <span> Skills </span> 
+            </a>
+            <a href="#education"> 
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span> Education </span> 
+            </a>
+            <a href="#projects"> 
+                <i class="fa-sharp fa-solid fa-diagram-project"></i>
+                <span> Projects </span> 
+            </a>
+            <a href="#contact"> 
+                <i class="fa-solid fa-address-book"></i>
+                <span> Contact </span> 
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Section 1 : Home -->
+        <section id="home">
+            <div class="text">
+                <h2> Hi I'm Mayank 👋🏻 </h2>
+                <p>Computer Science Engineer</p>
+                <p>A Full Stack Web Developer graduated from JECRC College, Jaipur </p>
+                <div>
+                    Aspiring software developer with a strong foundation in
+                    programming and a knack for finding elegant solutions to complex problems. Seeking an opportunity to grow professionally while making meaningful contributions to impactful projects.
+                </div>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/mayank-mathur-0442b72b8" class="linkedin" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/MayankCreations" class="github" target="_blank" >
+                        <i class="fa-brands fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="./assets/CV_MayankM.pdf" download class="resume" target="_blank">
+                        <i class="fa-solid fa-file"></i>
+                        <span>Download CV</span>
+                    </a>
+                </div>
+            </div>
+            <div class="headshot">
+                <img src="./Images/headshot.jpg" alt="Headshot">
+            </div>
+        </section>
+        
+        <!-- Section 2 : About -->
+        <section id="about">
+            
+            <h2 class="title">ABOUT</h2>
+            
+            <div class="headshot">
+                <img src="./Images/headshot3.jpg" alt="Headshot">
+            </div>
+
+            <div class="text">
+                <h2> My Introduction </h2>
+                
+                <div>
+                    Versatile Full Stack Web Developer with over 6 years of experience designing, building, and maintaining dynamic web applications. Proficient in both front-end and back-end technologies, including HTML, CSS, JavaScript, React, Node.js, and SQL. Demonstrated ability to deliver high-quality solutions that enhance user experiences and drive business goals. Adept at collaborating with cross-functional teams and adapting to evolving technologies. Seeking to leverage my comprehensive development skills and innovative problem-solving abilities to contribute to a forward-thinking tech company.
+                    <br><br>
+                    <p>
+                        Read More <i class="fa-solid fa-angle-down"></i>
+                    </p>
+                </div>
+
+                <div class="score">
+                    <a href="#cgpa" id="cgpa" target="_blank">
+                        <h2>6.2</h2>
+                        <span>CGPA</span>
+                    </a>
+                    <a href="#project" id="project" target="_blank" >
+                        <h2>4+</h2>
+                        <span>Projects</span>
+                    </a>
+                    <a href="#exp" download id="experience" target="_blank">
+                        <h2>6+</h2>
+                        <span>Experience</span>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Section 3 : Skills -->
+        <section id="skills">
+            <div class="title"> 
+                <h2> SKILLS </h2>
+            </div>
+            <div class="box languages"> 
+                <h2>Languages</h2> 
+                <div> 
+                    <img src="./images/C++.png" height="50px">
+                    <span> C++ </span>
+                    <progress id="file" value="95" max="100"> </progress> <span>95%</span>
+                </div>
+                <div> 
+                    <img src="./images/Java.png" height="50px">
+                    <span> JAVA </span>
+                    <progress id="file" value="85" max="100"> </progress> <span>85%</span>
+                </div>
+                <div> 
+                    <img src="./images/HTML.png" height="50px">
+                    <span> HTML </span>
+                    <progress id="file" value="90" max="100"> </progress> <span>90%</span>
+                </div>
+                <div> 
+                    <img src="./images/CSS.png" height="50px">
+                    <span> CSS </span>
+                    <progress id="file" value="75" max="100"> </progress> <span>75%</span>
+                </div>
+                <div> 
+                    <img src="./images/JS.png" height="50px">
+                    <span> JavaScript </span>
+                    <progress id="file" value="60" max="100"> </progress> <span>60%</span>
+                </div>
+                <div> 
+                    <img src="./images/Python.png" height="50px">
+                    <span> Python </span>
+                    <progress id="file" value="55" max="100"> </progress> <span>55%</span>
+                </div>
+                <div> 
+                    <img src="./images/SQL.png" height="50px">
+                    <span> SQL </span>
+                    <progress id="file" value="80" max="100"> </progress> <span>80%</span>
+                </div>
+                
+            </div>
+            <div class="box tools"> 
+                <h2> Tools & Frameworks </h2> 
+                
+                <div> 
+                    <img src="./images/NodeJS.png" height="50px">
+                    <span> Node.Js </span>
+                    <progress id="file" value="70" max="100"> </progress> <span>70%</span>
+                </div>
+                <div> 
+                    <img src="./images/Tailwind.png" height="50px">
+                    <span> Tailwind CSS </span>
+                    <progress id="file" value="60" max="100"> </progress> <span>60%</span>
+                </div>
+                <div> 
+                    <img src="./images/MySQL.png" height="50px">
+                    <span> MySQL </span>
+                    <progress id="file" value="75" max="100"> </progress> <span>75%</span>
+                </div>
+                <div> 
+                    <img src="./images/VScode.png" height="50px">
+                    <span> VS Code </span>
+                    <progress id="file" value="85" max="100"> </progress> <span>85%</span>
+                </div>
+                <div> 
+                    <img src="./images/Eclipse.png" height="50px">
+                    <span> Eclipse </span>
+                    <progress id="file" value="70" max="100"> </progress> <span>70%</span>
+                </div>
+                <div> 
+                    <img src="./images/Spyder.png" height="50px">
+                    <span> Spyder </span>
+                    <progress id="file" value="75" max="100"> </progress> <span>75%</span>
+                </div>
+                <div>
+                    <!-- Empty div for even spacing-->
+                </div>
+                
+            </div>
+            <div class="box softskills"> 
+                <h2> Soft Skills </h2>
+                
+                <div> 
+                    <i class="fa-solid fa-microphone"></i>
+                    <span> Communication Skills </span>
+                </div>
+                <div> 
+                    <i class="fa-solid fa-arrows-spin"></i>
+                    <span> Adaptability </span>
+                </div>
+                <div> 
+                    <i class="fa-solid fa-people-carry-box"></i>
+                    <span> Teamwork </span>
+                </div>
+                <div> 
+                    <i class="fa-solid fa-briefcase"></i>
+                    <span> Work Ethics </span>
+                </div>
+                <div> 
+                    <i class="fa-solid fa-user-gear"></i>
+                    <span> Creativity </span>
+                </div>
+                <div>
+                    <!-- Empty div for even spacing-->
+                </div>
+                <div>
+                    <!-- Empty div for even spacing-->
+                </div>
+                
+            </div>
+        </section>
+        
+        <!-- Section 4 : Education -->
+        <section id="education">
+            <h2> EDUCATION </h2>
+            <div class="box class10">
+                <h2>Class X<sup>th</sup> </h3>
+                <div class="school-name">
+                    <img src="./images/SchoolLogo.png" height="70px">
+                    <div>
+                        <h3>St. Stephen's Sr. Sec. School,</h3> 
+                        <p>Ajmer(Raj.)</p>
+                    </div>
+                </div>
+                <div class="board-name">
+                    <h3>Central Board of Secondary Education</h3>
+                    <p>Ajmer(Raj.)</p>
+                </div>
+                <div> 
+                    <span>Completed in 2012</span>
+                </div>
+                <div class="marks">
+                    <span>Percentage : </span>
+                    <h3>81%</h3>
+                </div>
+            </div>
+            <div class="box class12">
+                <h2> Class XII<sup>th</sup> </h2>
+                <div class="school-name">
+                    <img src="./images/SchoolLogo.png" height="70px">
+                    <div>
+                        <h3>St. Stephen's Sr. Sec. School,</h3> 
+                        <p>Ajmer(Raj.)</p>
+                    </div>
+                </div>
+                <div class="board-name">
+                    <h3>Central Board of Secondary Education</h3>
+                    <p>Ajmer(Raj.)</p>
+                </div>
+                <div>
+                    <span> Completed in 2014 </span>
+                </div>
+                <div class="marks">
+                    <span>Percentage : </span>
+                    <h3>65%</h3>
+                </div>
+            </div>
+
+            <div class="box college">
+                <h2>Graduation</h2>
+                <div class="school-name">
+                    <img src="./images/Jecrc.png" height="70px">
+                    <div>
+                        <h3 class="sname">JECRC College,</h3> 
+                        <p>Jaipur(Raj.)</p>
+                    </div>
+                </div>
+                <div class="board-name">
+                    <h3 class="sname">Rajasthan Technical University,</h3>
+                    <p>Kota(Raj.)</p>
+                </div>
+                <div>
+                    <span> Completed in 2018 </span>    
+                </div>
+                <div class="marks">
+                    <span>Percentage : </span>
+                    <h3>62%</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5 : Projects -->
+        <section id="projects">
+            <div class="container1">
+                <h2>PROJECT</h2>
+                <div>(Note : Kindly hover on the image for details)</div>
+            </div>
+            
+            <div class="container2">
+                <div class="box">
+                    <div class="boxes">
+                        <img src="./images/Project1.png">
+                        <div class="body-content1">
+                            <h3> Avengers Website </h3>
+                            <span> A prototype website design made with semantic HTML & CSS animations and transiiton effects. Sticky Navbar for links to various sections of the page highlighting connectivity amongst sections  </span>
+                            <a>
+                                Full Report <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="boxes">
+                        <img src="./images/Project2.png">
+                        <div class="body-content1">
+                            <h3>Online Exam Portal</h3>
+                            <span>Online examination system is a non removable examination pattern of today's life. We need more time saving and accurate examination system as the number of applicants is increasing day by day.</span>
+                            <a>
+                                Full Report <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="boxes">
+                        <img src="./images/Project3.png">
+                        <div class="body-content1">
+                            <h3>Personal Blogspot</h3>
+                            <span>
+                                Filmy Blogspot using HTML, CSS, and JavaScript Code. On this Filmy Blogspot, you see some movie list on the main page and there's a search bar in the header so you can search for and movie and you get its Poster image, movie title, movie overview, and movie ratings.
+                            </span>
+                            <a>
+                                Full Report <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="boxes">
+                        <img src="./images/Project4.png">
+                        <div class="body-content1">
+                            <h3>Rock Paper Game</h3>
+                            <span>
+                                Rock-Paper-Scissors game implemented using HTML, CSS, and JavaScript. It allows users to play the classic hand game against a computer opponent. The game features a user-friendly interface and provides an engaging gaming experience.
+                            </span>
+                            <a>
+                                Full Report <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="boxes">
+                        <img src="./images/Project5.png">
+                        <div class="body-content1">
+                            <h3>Tic Tac Toe Game</h3>
+                            <span>
+                                Tic Tac Toe, also known as Noughts and Crosses, is a classic two-player game that's both fun and challenging. In this tutorial, we will walk you through the process of creating a Tic Tac Toe game using HTML, CSS, and JavaScript.
+                            </span>
+                            <a>
+                                Full Report <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="boxes">
+                        <img src="./images/Project6.png">
+                        <div class="body-content1">
+                            <h3>Currency Converter</h3>
+                            <span>
+                                A Web Application that fetches real-time data for currency conversion rates using HTML, CSS, and JavaScript. The application allows users to convert currencies by selecting the source currency and the target currency, and it provides an interface to easily switch between the two selected values.
+                            </span>
+                            <a>
+                                Full Report <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Section 6 : Contact -->
+        <section id="contact">
+            <h2> Contact </h2>
+            <div class="group">
+                <div class="text">
+                    <div class="box1">
+                        <img src="./Images/Gmail.png" height="50px"> &nbsp;
+                        <label><b>Gmail</b></label> &nbsp; : &nbsp;
+                        <a href="mailto:atworkmayank@gmail.com?subject=Hello!" class="text">
+                            atworkmayank@gmail.com
+                        </a>
+                    </div>
+                    <div class="box2">
+                        <img src="./Images/Whatsapp logo.png" height="50px"> &nbsp;
+                        <label><b>Whatsapp</b></label> &nbsp; : &nbsp;
+                        <a href="https://wa.me/919461263426" target="_blank" class="text">
+                            "+91-9461263426"
+                        </a>
+                    </div>
+                    <div class="box3">
+                        <img src="./Images/call.png" height="50px"> &nbsp;
+                        <label><b>Call</b></label> &nbsp; : &nbsp;
+                        <a href="tel:+919461263426" target="_blank" class="text">
+                            "+91-9461263426"
+                        </a>
+                    </div>
+                </div>
+                <form>               
+                    <label for="name"> Name</label>
+                    <input type="text" id="name">
+                    
+                    <label for="mail"> Email ID</label>
+                    <input type="email" id="mail">
+                    
+                    <label for="msg"> Message </label>
+                    <textarea id="msg" cols="40" rows="10"></textarea>
+                    
+                    <button type="submit" class="img-btn"> Send Message </button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <center> Copyright @2024 Blogpost by <strong> <a href="#home" id="foot"> Er. Mayank Mathur </a> </strong> , All Rights Reserved <br /> (An initiative by Aishium Creations) </center>
+    </footer>
+</body>
+</html>
